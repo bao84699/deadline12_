@@ -155,7 +155,8 @@
                     justify-content: space-between;
                     padding-right: 36px;
                     box-sizing: border-box;
-                    padding-top: 5px;
+                    padding-top: 15px;
+                    padding-bottom: 5Px;
                     height: 238px;
                     gap: 14px;
                     background: #c4c4c410;
