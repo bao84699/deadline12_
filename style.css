@@ -249,7 +249,7 @@ body {
             justify-content: center;
             position: relative;
             box-sizing: border-box;
-            .background {
+            .backgrounds {
                 box-sizing: border-box;
                 padding: 0 10px;
                 width: 100%;
@@ -258,7 +258,7 @@ body {
                 background: #c4c4c410;
                 border-top-left-radius: 20px;
                 border-top-right-radius: 20px;
-                z-index: 1;
+                z-index: 3;
                 margin-top: 10px;
             }
             .inguide {

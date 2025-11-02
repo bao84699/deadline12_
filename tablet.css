@@ -84,8 +84,8 @@
             .guide {
                 top: 675px;
                 height: 255px;
-                .background {
-                    margin-top: 5px;
+                .backgrounds {
+                    margin-top: 10px;
                     width: 100%;
                     height: 245px;
                     border-top-left-radius: 20px;
