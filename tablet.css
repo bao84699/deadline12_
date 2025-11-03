@@ -176,6 +176,9 @@
             max-width: 670px;
             flex-direction: column;
             gap: 40.88px;
+            .inf2 {
+                display: none;
+            }
         }
         .frame {
             max-width: 670px;
@@ -260,54 +263,87 @@
                 font-size: 36px;
             }
         }
-        .inf{
+        .inf {
+            display: none;
+        }
+        .inf2{
+            display: flex;
             margin-top: 40px;
-            margin-bottom: 60px;
+            margin-bottom: 53px;
             font-size: 18px;
             width: 553px;
             height: 88px;
         }
-        .img {
-            .img1 {
+        .picture {
+            max-width: 747px;
+            .center {
                 width: 458.41912841796875px;
                 height: 343.4248352050781px;
             }
-            .img4{
-                width: 183px;
+            .discript {
                 height: 65px;
+                .indiscript {
+                    height: 65px;
+                    .around {
+                        left: 0;
+                        width: 65px;
+                        height: 65px;
+                    }
+                    .box {
+                        background: #C4C4C433;
+                        border-radius: 10px;
+                        color: #17C2EC;
+                        font-weight: 550;
+                        font-size: 18px;
+                        span {
+                            display: none;
+                        }
+                    }
+                    .p1 {
+                        padding-right: 16px;
+                        width: 150px;
+                        height: 45px;
+                    }
+                    .p2 {
+                        padding-right: 11px;
+                        width: 224px;
+                        height: 45px;
+                    }
+                    .p3 {
+                        padding-right: 17px;
+                        width: 150px;
+                        height: 45px;
+                    }
+                    .p4 {
+                        padding-right: 14px;
+                        width: 230px;
+                        height: 45px;
+                        
+                    }
+                    .p5 {
+                        padding-right: 8px;
+                        width: 224px;
+                        height: 45px;
+                    }
+                    .p6 {
+                        padding-right: 19px;
+                        width: 168px;
+                        height: 45px;
+                    }
+                }
             }
-            .img4.vt1 {
-               width: 183px;
-                height: 65px;
-            }
-            .img4.vt2 {
-                width: 183px;
-                height: 65px;
-            }
-            .img5.vt5 {
-                top: 61.5px; right: 147px;
-                width: 378px;
-                height: 100px;
-            }
-            .img5.vt3 {
-                top: 245px; right: 77px;
-                width: 342px;
-                height: 100px;
-            }
-            .img5.vt4 {
-                top: 400px; right: 30px;
-                width: 315px;
-                height: 100px;
-            }
-        }
-        .imga {
-            display: none;
-        }
-        .imgb {
-            display: flex;
-        }
-        .imgc {
-            display: none;
+            .a1 {left: 111px; top: 16px;}
+            .a3 {left: 45px; top: 107px;}
+            .a2 {left: 0px; top: 198px;}
+            .a4 {right: 46px; top: 16px; width: 257px;}
+            .a5 {right: 14px;top: 107px;}
+            .a6 {right: 0px; top: 198px;}
+            .b1 {width: 183px;}
+            .b2 {width: 257px;}
+            .b3 {width: 183px;}
+            .b4 {width: 257px;}
+            .b5 {width: 257px;}
+            .b6 {width: 201px;}
         }
     }
     .section7 {
@@ -316,7 +352,7 @@
             gap: 0;
             flex-direction: column;
             align-items: center;
-            top: 287px;
+            top: 305px;
             .khoangcach {
                 width: 173.86009216308594px;
                 height: 283px;
@@ -332,8 +368,12 @@
                 }
             }
             .inf {
+                display: none;
+            }
+            .inf2 {
                 width: 580px;
                 font-size: 18px;
+                display: flex;
             }
             .persona {
                 flex-direction: column;
