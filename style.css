@@ -1226,17 +1226,16 @@ body {
         z-index: 1;
         background: #0B153C;
         flex-direction: row;
-        gap:  162px;
         bottom: 0;
         .minibox {
             width: 95%;
             max-width: 1299px;
             position: absolute;
             display: flex;
-            gap: 162px;
             flex-direction: row;
             height: 50px;
             align-items: center;
+            justify-content: space-between;
             bottom: 123px;
             .logo {
                 width: 251px;
